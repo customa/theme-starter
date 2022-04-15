@@ -1,0 +1,17 @@
+name: Lint Files
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install and Build 🛎🔧
+        uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '17'
+          check-latest: true
+      - run: yarn install --frozen-lockfile
+      - run: yarn run format:check
+      - run: yarn run theme:compile

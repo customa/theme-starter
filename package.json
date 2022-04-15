@@ -1,0 +1,33 @@
+{
+  "name": "<CHANGE_ME:THEME_NAME>",
+  "version": "0.0.1",
+  "description": "<CHANGE_ME:THEME_DESCRIPTION>",
+  "main": "index.js",
+  "scripts": {
+    "theme:compile": "node ci/index.js",
+    "format:check": "stylelint '**/*.css'",
+    "format:fix": "stylelint '**/*.css' --fix",
+    "format:js": "prettier {**/*,*}.{js,md,json} --write",
+    "prepare": "husky install"
+  },
+  "repository": "<CHANGE_ME:REPOSITORY_URL>",
+  "author": "<CHANGE_ME:AUTHOR_NAME>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "<CHANGE_ME:ISSUE_URL>"
+  },
+  "homepage": "<CHANGE_ME:HOMEPAGE/README_URL>",
+  "devDependencies": {
+    "cssnano": "^5.1.7",
+    "fs-extra": "^10.0.1",
+    "glob": "^8.0.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.8",
+    "postcss": "^8.4.12",
+    "postcss-custom-properties": "^12.1.7",
+    "postcss-reporter": "^7.0.5",
+    "prettier": "^2.6.2",
+    "stylelint": "^14.6.1",
+    "stylelint-config-standard": "^25.0.0"
+  }
+}

@@ -1,0 +1,50 @@
+extends: stylelint-config-standard
+rules:
+  indentation: 2
+  linebreaks: unix
+  max-line-length: 180
+  no-missing-end-of-source-newline: true
+  no-duplicate-selectors: null
+  string-quotes: single
+  color-hex-case: lower
+  color-hex-length: long
+  color-named: never
+  selector-combinator-space-after: always
+  selector-attribute-quotes: always
+  selector-attribute-operator-space-before: always
+  selector-attribute-operator-space-after: always
+  selector-attribute-brackets-space-inside: never
+  declaration-block-trailing-semicolon: always
+  declaration-colon-space-before: never
+  declaration-colon-space-after: always
+  number-leading-zero: never
+  function-url-quotes: always
+  font-weight-notation: numeric
+  font-family-name-quotes: always-unless-keyword
+  comment-whitespace-inside: always
+  selector-pseudo-element-colon-notation: double
+  selector-pseudo-class-parentheses-space-inside: never
+  selector-list-comma-newline-after: null
+  selector-max-universal: 1
+  media-feature-range-operator-space-before: always
+  media-feature-range-operator-space-after: always
+  media-feature-parentheses-space-inside: never
+  media-feature-colon-space-before: never
+  media-feature-colon-space-after: always
+  block-closing-brace-empty-line-before: never
+  at-rule-no-unknown: null
+  at-rule-disallowed-list:
+    - debug
+  at-rule-empty-line-before: null
+  block-opening-brace-space-before: null
+  block-closing-brace-newline-after:
+    - always
+    - ignoreAtRules:
+        - if
+        - else
+  at-rule-name-space-after: always
+  no-descending-specificity: null
+  selector-class-pattern: null
+  no-eol-whitespace: null
+  alpha-value-notation: null
+  color-function-notation: null

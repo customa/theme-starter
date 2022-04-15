@@ -1,0 +1,13 @@
+{
+  "name": "<CHANGE_ME:THEME_NAME>",
+  "description": "<CHANGE_ME:THEME_DESCRIPTION>",
+  "version": "0.0.1",
+  "author": "<CHANGE_ME:AUTHOR_NAME>",
+  "license": "MIT",
+  "theme": "modules/index.css",
+  "preview": [
+    "<CHANGE_ME:PREVIEW_IMAGE>"
+  ],
+  "consent": ["ext_listing"],
+  "discord": "GsPuw88"
+}
